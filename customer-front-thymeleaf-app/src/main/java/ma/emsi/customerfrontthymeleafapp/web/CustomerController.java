@@ -20,4 +20,10 @@ public class CustomerController {
         model.addAttribute("customers", customerList);
         return "customers";
     }
+
+    @GetMapping("/products")
+    public String products(Model model){
+
+        return "products";
+    }
 }
