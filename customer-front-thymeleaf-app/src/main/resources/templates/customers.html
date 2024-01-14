@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="template">
+
 <head>
     <meta charset="UTF-8">
     <title>Customers</title>
+    <link rel="stylesheet" href="webjars/bootstrap/5.3.2/css/bootstrap.min.css" />
 </head>
 <body>
-    <table>
+<div layout:fragment="content">
+    <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
@@ -19,6 +24,8 @@
                 <td th:text="${customer.name}"></td>
                 <td th:text="${customer.email}"></td>
             </tr>
+        <tbody>
     </table>
+</div>
 </body>
 </html>
