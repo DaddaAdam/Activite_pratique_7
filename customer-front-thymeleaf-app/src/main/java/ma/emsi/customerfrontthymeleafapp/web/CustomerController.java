@@ -3,6 +3,7 @@ package ma.emsi.customerfrontthymeleafapp.web;
 import lombok.AllArgsConstructor;
 import ma.emsi.customerfrontthymeleafapp.entities.Customer;
 import ma.emsi.customerfrontthymeleafapp.repository.CustomerRepository;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,5 +26,15 @@ public class CustomerController {
     public String products(Model model){
 
         return "products";
+    }
+
+    @GetMapping("/auth")
+    public Authentication auth(Authentication authentication){
+        return authentication;
+    }
+
+    @GetMapping("/")
+    public String index(){
+        return "index";
     }
 }
