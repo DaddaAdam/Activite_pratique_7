@@ -68,9 +68,19 @@
 
 <img width="1680" alt="Screenshot 2024-01-16 at 19 16 28" src="https://github.com/DaddaAdam/Activite_pratique_7/assets/77986052/e61de99d-128d-4c8c-bdf1-52dc65de155f">
 
-### Affichage des produits pour les utilisateurs admin
+### Authentification par Keycloak
 
-<img width="1680" alt="Screenshot 2024-01-16 at 17 28 18" src="https://github.com/DaddaAdam/Activite_pratique_7/assets/77986052/2fb5426b-b97f-4450-8b08-8e30eae3fa7f">
+<img width="1680" alt="Screenshot 2024-01-16 at 21 50 16" src="https://github.com/DaddaAdam/Activite_pratique_7/assets/77986052/b83f33ba-95ac-453c-8025-0306701e51ec">
+
+<img width="1680" alt="Screenshot 2024-01-16 at 21 50 34" src="https://github.com/DaddaAdam/Activite_pratique_7/assets/77986052/cf75e824-e3a5-40a5-8c06-9ef7cc4d8356">
+
+### Erreur 401 pour les utilisateurs non ADMIN
+
+<img width="1680" alt="Screenshot 2024-01-16 at 21 53 10" src="https://github.com/DaddaAdam/Activite_pratique_7/assets/77986052/33ce8a80-fc65-43d9-973f-faa99d9495fa">
+
+### Affichage des produits pour les utilisateurs ADMIN
+
+<img width="1680" alt="Screenshot 2024-01-16 at 21 50 54" src="https://github.com/DaddaAdam/Activite_pratique_7/assets/77986052/af465d46-cbc8-4de6-bd7a-8c796ba380fc">
 
 ## Docker
 
