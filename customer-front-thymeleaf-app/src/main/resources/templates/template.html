@@ -34,7 +34,7 @@
             <span th:text="${#authentication.name}"></span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="@{/login}">Login</a></li>
             <li>
               <form th:action="@{/logout}" method="post">
                 <input type="submit" class="btn btn-success" value="Logout"/>
